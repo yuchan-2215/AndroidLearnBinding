@@ -12,5 +12,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.text.text = getString(R.string.replaced_text)
+        binding.button.setOnClickListener {
+            binding.text.text = getString(R.string.clicked_text)
+        }
     }
 }
