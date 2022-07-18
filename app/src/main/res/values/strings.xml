@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">learn-binding</string>
+    <string name="default_text">Hello World!</string>
+    <string name="replaced_text">Hello Japan!</string>
+    <string name="clicked_text">Hello Tokyo!</string>
+    <string name="btn_text">Tap</string>
 </resources>
